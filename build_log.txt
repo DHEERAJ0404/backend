@@ -1,0 +1,174 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.smartcampus:smart-campus-backend >----------------
+[INFO] Building smart-campus-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ smart-campus-backend ---
+[INFO] Deleting C:\Users\akash\Desktop\Amul56\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ smart-campus-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ smart-campus-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 19 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[38,69] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[41,21] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[42,21] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[43,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[44,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[26,18] cannot find symbol
+  symbol:   method setUser(com.smartcampus.models.User)
+  location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[27,38] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[28,41] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[29,38] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[30,18] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.models.Complaint.Status)
+  location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[42,53] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[48,18] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.models.Complaint.Status)
+  location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[45,69] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.dto.LoginRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[45,94] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type com.smartcampus.dto.LoginRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[55,34] constructor JwtResponse in class com.smartcampus.dto.JwtResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.Long,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[64,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[67,27] constructor MessageResponse in class com.smartcampus.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[72,35] cannot find symbol
+  symbol:   method getName()
+  location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[73,36] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[74,54] cannot find symbol
+  symbol:   method getPassword()
+  location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[75,35] cannot find symbol
+  symbol:   method getRole()
+  location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[79,34] constructor MessageResponse in class com.smartcampus.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 22 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.967 s
+[INFO] Finished at: 2026-02-18T13:42:35+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project smart-campus-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[38,69] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[41,21] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[42,21] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[43,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/security/UserDetailsImpl.java:[44,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[26,18] cannot find symbol
+[ERROR]   symbol:   method setUser(com.smartcampus.models.User)
+[ERROR]   location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[27,38] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[28,41] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[29,38] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable request of type com.smartcampus.dto.ComplaintRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[30,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.models.Complaint.Status)
+[ERROR]   location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[42,53] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.smartcampus.models.User
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/services/ComplaintService.java:[48,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.models.Complaint.Status)
+[ERROR]   location: variable complaint of type com.smartcampus.models.Complaint
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[45,69] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.dto.LoginRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[45,94] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type com.smartcampus.dto.LoginRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[55,34] constructor JwtResponse in class com.smartcampus.dto.JwtResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.Long,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[64,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[67,27] constructor MessageResponse in class com.smartcampus.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[72,35] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[73,36] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[74,54] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[75,35] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.dto.SignupRequest
+[ERROR] /C:/Users/akash/Desktop/Amul56/backend/src/main/java/com/smartcampus/controllers/AuthController.java:[79,34] constructor MessageResponse in class com.smartcampus.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
