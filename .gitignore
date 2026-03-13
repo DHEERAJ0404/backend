@@ -1,0 +1,14 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+apache-maven-*/
+maven.zip
+*.log
+build_log*.txt
+build_output.txt
+run_log.txt
+uploads/
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
